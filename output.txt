@@ -1,0 +1,177 @@
+
+First In First Out (FIFO) Scheduling
+Process Execution Order:
+Executing Process 1 (Burst Time: 8)
+Response Time: 0
+Turnaround Time for Process 1: 8
+Executing Process 2 (Burst Time: 5)
+Response Time: 7
+Turnaround Time for Process 2: 12
+Executing Process 3 (Burst Time: 10)
+Response Time: 11
+Turnaround Time for Process 3: 21
+Executing Process 4 (Burst Time: 3)
+Response Time: 20
+Turnaround Time for Process 4: 23
+Executing Process 5 (Burst Time: 6)
+Response Time: 22
+Turnaround Time for Process 5: 28
+Executing Process 6 (Burst Time: 7)
+Response Time: 27
+Turnaround Time for Process 6: 34
+Executing Process 7 (Burst Time: 4)
+Response Time: 33
+Turnaround Time for Process 7: 37
+Executing Process 8 (Burst Time: 9)
+Response Time: 36
+Turnaround Time for Process 8: 45
+Executing Process 9 (Burst Time: 2)
+Response Time: 44
+Turnaround Time for Process 9: 46
+Executing Process 10 (Burst Time: 5)
+Response Time: 45
+Turnaround Time for Process 10: 50
+Executing Process 11 (Burst Time: 6)
+Response Time: 49
+Turnaround Time for Process 11: 55
+Executing Process 12 (Burst Time: 8)
+Response Time: 54
+Turnaround Time for Process 12: 62
+Executing Process 13 (Burst Time: 4)
+Response Time: 61
+Turnaround Time for Process 13: 65
+Executing Process 14 (Burst Time: 7)
+Response Time: 64
+Turnaround Time for Process 14: 71
+Executing Process 15 (Burst Time: 3)
+Response Time: 70
+Turnaround Time for Process 15: 73
+Executing Process 16 (Burst Time: 6)
+Response Time: 72
+Turnaround Time for Process 16: 78
+Executing Process 17 (Burst Time: 5)
+Response Time: 77
+Turnaround Time for Process 17: 82
+Executing Process 18 (Burst Time: 4)
+Response Time: 81
+Turnaround Time for Process 18: 85
+Executing Process 19 (Burst Time: 7)
+Response Time: 84
+Turnaround Time for Process 19: 91
+Executing Process 20 (Burst Time: 9)
+Response Time: 90
+Turnaround Time for Process 20: 99
+The average turnaround time is: 53.25
+The average response time is: 47.35
+
+Shortest Job First (SJF) Scheduling
+Process Execution Order:
+Executing Process 1 (Burst Time: 8)
+Turnaround Time: 8
+Response time: 0
+Executing Process 9 (Burst Time: 2)
+Turnaround Time: 2
+Response time: 0
+Executing Process 4 (Burst Time: 3)
+Turnaround Time: 10
+Response time: 7
+Executing Process 7 (Burst Time: 4)
+Turnaround Time: 11
+Response time: 7
+Executing Process 15 (Burst Time: 3)
+Turnaround Time: 6
+Response time: 3
+Executing Process 13 (Burst Time: 4)
+Turnaround Time: 12
+Response time: 8
+Executing Process 18 (Burst Time: 4)
+Turnaround Time: 11
+Response time: 7
+Executing Process 2 (Burst Time: 5)
+Turnaround Time: 32
+Response time: 27
+Executing Process 10 (Burst Time: 5)
+Turnaround Time: 29
+Response time: 24
+Executing Process 17 (Burst Time: 5)
+Turnaround Time: 27
+Response time: 22
+Executing Process 5 (Burst Time: 6)
+Turnaround Time: 45
+Response time: 39
+Executing Process 11 (Burst Time: 6)
+Turnaround Time: 45
+Response time: 39
+Executing Process 16 (Burst Time: 6)
+Turnaround Time: 46
+Response time: 40
+Executing Process 6 (Burst Time: 7)
+Turnaround Time: 63
+Response time: 56
+Executing Process 14 (Burst Time: 7)
+Turnaround Time: 62
+Response time: 55
+Executing Process 19 (Burst Time: 7)
+Turnaround Time: 64
+Response time: 57
+Executing Process 12 (Burst Time: 8)
+Turnaround Time: 79
+Response time: 71
+Executing Process 8 (Burst Time: 9)
+Turnaround Time: 92
+Response time: 83
+Executing Process 20 (Burst Time: 9)
+Turnaround Time: 89
+Response time: 80
+Executing Process 3 (Burst Time: 10)
+Turnaround Time: 116
+Response time: 106
+The average turnaround time using SJR: 42.00
+The average response time using SJR: 36.00
+
+Shortest Remaining Job First (SRJF) Scheduling
+Process Execution Order:
+Executing Process 1, Response Time: 0
+Executing Process 2, Response Time: 0
+Process 2 completed. Turnaround Time: 5
+Executing Process 4, Response Time: 3
+Process 4 completed. Turnaround Time: 6
+Executing Process 9, Response Time: 1
+Process 9 completed. Turnaround Time: 3
+Executing Process 7, Response Time: 5
+Process 7 completed. Turnaround Time: 9
+Executing Process 15, Response Time: 1
+Process 15 completed. Turnaround Time: 4
+Executing Process 13, Response Time: 6
+Process 13 completed. Turnaround Time: 10
+Executing Process 18, Response Time: 5
+Process 18 completed. Turnaround Time: 9
+Executing Process 10, Response Time: 17
+Process 10 completed. Turnaround Time: 22
+Executing Process 17, Response Time: 15
+Process 17 completed. Turnaround Time: 20
+Executing Process 5, Response Time: 32
+Process 5 completed. Turnaround Time: 38
+Executing Process 11, Response Time: 32
+Process 11 completed. Turnaround Time: 38
+Executing Process 16, Response Time: 33
+Process 16 completed. Turnaround Time: 39
+Process 1 completed. Turnaround Time: 61
+Executing Process 6, Response Time: 56
+Process 6 completed. Turnaround Time: 63
+Executing Process 14, Response Time: 55
+Process 14 completed. Turnaround Time: 62
+Executing Process 19, Response Time: 57
+Process 19 completed. Turnaround Time: 64
+Executing Process 12, Response Time: 71
+Process 12 completed. Turnaround Time: 79
+Executing Process 8, Response Time: 83
+Process 8 completed. Turnaround Time: 92
+Executing Process 20, Response Time: 80
+Process 20 completed. Turnaround Time: 89
+Executing Process 3, Response Time: 106
+Process 3 completed. Turnaround Time: 116
+The average turnaround time is 41.45
+The average response time is: 32.90
+All processes are finished.
+

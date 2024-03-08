@@ -1,0 +1,29 @@
+
+Process Execution Order:
+
+The high priority queue is scheduled by Round Robin.
+The process ID 11 starts and has a response time: 0
+The process ID 14 starts and has a response time: 1
+The process id 11 completes, and has a turnaround time: 8
+The process ID 17 starts and has a response time: 2
+The process ID 20 starts and has a response time: 3
+The process id 17 completes, and has a turnaround time: 15
+The process id 14 completes, and has a turnaround time: 19
+The process id 20 completes, and has a turnaround time: 18
+The average turnaround time is 15.00, and the average response time is 1.50, using a Round Robin scheduling with a time quantum 2
+
+The medium priority queue is scheduled by Round Robin.
+The process ID 13 starts and has a response time: 25
+The process ID 16 starts and has a response time: 24
+The process ID 19 starts and has a response time: 23
+The process id 13 completes, and has a turnaround time: 33
+The process id 16 completes, and has a turnaround time: 36
+The process id 19 completes, and has a turnaround time: 36
+The average turnaround time is 35.00, and the average response time is 24.00, using a Round Robin scheduling with a time quantum 2
+
+The low priority queue is scheduled by FIFO.
+The process ID: 12 starts with a response time: 44, and completes with a turaround time: 50
+The process ID: 15 starts with a response time: 49, and completes with a turaround time: 57
+The process ID: 18 starts with a response time: 56, and completes with a turaround time: 60
+The average turnaround time is: 55.67, The average response time is: 49.67
+All processes complete.
