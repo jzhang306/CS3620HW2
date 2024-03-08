@@ -1,4 +1,4 @@
-To run each executable, just do ./Program Name, the standard output is in the output.txt file.<br>
+This is the 2nd homework assignment for Operating System, the standard output is in the output.txt file.<br>
 There is a simple feedback mechanism in mlq.c, to implement that function, just uncomment:<br>
 //adjust_priorities_based_on_feedback(processes, num_processes); in the schedule_process function.
 
