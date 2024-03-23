@@ -232,7 +232,7 @@ void schedule_processes(struct Process processes[], int num_processes) {
     for (int i = 0; i < num_processes; ++i) {
         processes[i].remaining_time = processes[i].burst_time;
     }
-    //uncomment to a+-djust priorities based on a mock feedback mechanism before scheduling
+    //uncomment to adjust priorities based on a mock feedback mechanism before scheduling
     //adjust_priorities_based_on_feedback(processes, num_processes);
 
     // Separate queues for different priority levels
